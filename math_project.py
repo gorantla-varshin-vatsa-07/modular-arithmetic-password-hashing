@@ -1,3 +1,12 @@
+"""
+Project: Modular Arithmetic Based Password Hashing System
+Author: Varshin Vatsa Gorantla, Sreeshanth Reddy
+Year: 2026
+License: MIT License
+
+This project is developed for academic purposes.
+"""
+
 import hashlib
 import random
 
@@ -53,4 +62,5 @@ verify = input("Re-enter your password to verify: ")
 if verify_password(verify, stored_hash, prime):
     print("✅ Password Verified Successfully! (Hash matched)")
 else:
+
     print("❌ Verification Failed! Password does not match.")
